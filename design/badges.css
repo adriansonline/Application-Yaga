@@ -38,6 +38,15 @@
   overflow: hidden;
 }
 
+html body#yaga_badges_detail.Yaga div#Frame div#Body div.Row div#Panel.Column div.Box ul.PanelInfo li a
+{
+ max-width:100px;
+        display:inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+}
+
 .RecentRecipients .CellWrap {
   display: inline-block;
   margin: 0;
